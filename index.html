@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="el" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Apostolos Anemou</title>
+    <script>
+      function show_hide() {
+        var click = document.getElementById("drop-content") ;
+        if(click.style.display==="none") {
+          click.style.display = "block" ;
+        } else{
+              click.style.display = "none" ;
+        }
+      }
+    </script>
+  </head>
+  <body class="apo" >
+    <nav>
+      <img src="img/3.png" alt="">
+    <div class="dropdown">
+      <button onclick="show_hide()" class="button">Home</button>
+      <div style="display:none;" id="drop-content">
+    <a href="about.html">About</a>
+   </div>
+  </div>
+  </nav>
+  <h1>Welocme to my page!</h1>
+  <div class="social-menu">
+  <ul>
+    <li><a href="https://www.facebook.com/apostolis.anemou.1/"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://github.com/aanemou3"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+</div>
+  </body>
+</html>
