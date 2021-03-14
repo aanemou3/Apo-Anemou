@@ -1,0 +1,120 @@
+nav
+{
+  height: 80px;
+  background: #2c3e50;
+}
+nav img
+{
+  width: 150px;
+  position: absolute;
+  top: 17px;
+}
+.dropdown
+{
+  float:right;
+  margin-right: 25px;
+}
+.apo{
+  background-image: url("img/2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.apo1
+{
+  background-image: url("img/5.jpg") ;
+  background-repeat: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;:
+}
+.apo2
+{
+  background-image: url("img/5.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.new
+{
+  color: black;
+  font-size: 20px;
+}
+.dropdown {
+  position : relative;
+  display:inline-block;
+}
+.button {
+  padding:10px 40px;
+  font-size:20px;
+}
+#drop-content {
+  position:absolute;
+  z-index:1 ;
+}
+#drop-content a{
+  display:block;
+  font-size:20px;
+  background:#dfdfdf;
+  color:black;
+  text-decoration:none;
+  padding:10px 36px;
+  margin-top:2px;
+}
+.social-menu ul
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.social-menu ul li
+{
+  list-style: none;
+  margin: 0 15px;
+}
+.social-menu ul li .fa
+{
+  font-size: 30px;
+  line-height: 60px;
+  transition: .6s;
+  color: #000;
+}
+.social-menu ul li .fa:hover
+{
+  background-color: #fff;
+}
+
+.social-menu ul li a
+{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover
+{
+  transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover
+{
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover
+{
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover
+{
+  background-color: #e4405f;
+}
