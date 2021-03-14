@@ -15,7 +15,7 @@ nav img
   margin-right: 25px;
 }
 .apo{
-  background-image: url("img/2.jpg") ;
+  background-image: url("2.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -23,7 +23,7 @@ nav img
 }
 .apo1
 {
-  background-image: url("img/5.jpg") ;
+  background-image: url("5.jpg") ;
   background-repeat: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -31,7 +31,7 @@ nav img
 }
 .apo2
 {
-  background-image: url("img/5.jpg") ;
+  background-image: url("5.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
